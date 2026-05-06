@@ -3,7 +3,7 @@ version: '3.8'
 services:
   just-press:
     build: .,
-    container: "just"
+    container_name: "just"
     ports:
       - "3000:80"
     restart: always
