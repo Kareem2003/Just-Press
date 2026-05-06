@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  just-press:
+    build: .
+    container_name: just-press-app
+    ports:
+      - "3000:80"
+    restart: always
